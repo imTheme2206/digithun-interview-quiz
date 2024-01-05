@@ -12,9 +12,9 @@ max([ -1, 4, 30, 2, -4 ]) expected return 30
 
 #2 example:
 max([ 3, 4, 5, 6, 7 ]) expected return 7
-
-
 */
+
+
 
 /*
 Bonus จากข้อ A (Optional): ให้หาค่ามากที่สุดลำดับที่ 2
@@ -96,37 +96,3 @@ console.log(findSecondMaxValue(testCaseA[2]))
 console.log(findSecondMaxValue(testCaseA[3]))
 // console.log(findSecondMaxValue([]))
 
-
-/*
-B: สร้าง function รับ array ของตัวเลขจำนวนเต็ม และจำนวนเต็ม k แล้วให้หาผลรวมมากที่สุดของจำนวนที่ติดกัน k ตัว
-
-โดย interface ของ function จะเป็น
-fn(inputs: Array<Number>, k: Number) -> Number
-
-Example input and output:
-
-#1 example:
-fn([1, 4, -1, 2, 3], 3)  expected return 5 (เกิดจาก 4 -1 +2)
-
-#2 example:
-fn([1, 4, -1, 2, 3], 2)  expected return 5 (เกิดจาก 2 + 3)
-*/
-
-const testCaseB = [
-    {
-        inputs : [1, 4, -1, 2, 3],
-        k : 3
-    },
-    {
-        inputs : [1, 4, -1, 2, 3],
-        k : 2
-    },
-]
-
-const fn = (inputs, k) => {
-    
-}
-
-console.log("========== Test for item B =========");
-console.log(fn(testCaseB[0].inputs, testCaseB[0].k))
-console.log(fn(testCaseB[1].inputs, testCaseB[1].k))
